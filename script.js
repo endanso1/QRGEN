@@ -1,15 +1,15 @@
-// Generate QR Code
-const qrCodeElement = document.getElementById("qr-code");
-const qrCodeData =
-  "BOE No.: 40325141031/00\nStatus: Assessed\nAmount: 3,013.56 GHS"; // Customize this data
-new QRCode(qrCodeElement, {
-  text: qrCodeData,
-  width: 128,
-  height: 128,
-});
+// Function to get BOE number from URL
+function getBOENumber() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("boe_no");
+}
 
-// Declaration Tracking Button Functionality
-function trackDeclaration() {
-  alert("Redirecting to declaration tracking...");
-  // Add logic to redirect or fetch tracking information
+// Get the BOE number from the URL
+const boeNo = getBOENumber();
+
+if (boeNo) {
+  // Redirect to the official BOE details page with the BOE number
+  window.location.href = `https://external-unipassghana.netlify.app/boe-details?boe_no=${boeNo}`;
+} else {
+  document.body.innerHTML = `<h2>BOE Not Found</h2><p>Invalid BOE Number</p>`;
 }
