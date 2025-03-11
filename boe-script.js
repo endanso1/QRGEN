@@ -9,11 +9,11 @@ const boeData = {
     amount: "1,040.43 GHS",
     pdfDate: "06/03/2025 16:05:01",
   },
-  40325133159: {
+  30325133159: {
     billNo: "AFO1-G-40325133159-01",
-    boe: "40325133159",
+    boe: "30325133159",
     tin: "U1234567890",
-    payerName: "CHRISTIAN ADU",
+    payerName: "NANA YAW DANSO",
     amount: "610.11 GHS",
     pdfDate: "04/03/2025 17:34:00",
   },
