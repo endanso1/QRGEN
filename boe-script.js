@@ -1,20 +1,29 @@
 // Sample BOE data
+
 const boeData = {
-  40325141031: {
+  40325136561: {
     billNo: "AFO1-G-40325136561-01",
-    boe: "40325141031",
+    boe: "40325136561",
     tin: "U2503070293",
-    payerName: "OPHELIA GYATEEN",
-    amount: "3,013.56 GHS",
-    pdfDate: "07/03/2025 17:55:31",
+    payerName: "GEORGE APPIAH",
+    amount: "1,040.43 GHS",
+    pdfDate: "06/03/2025 16:05:01",
   },
-  60325141031: {
-    billNo: "AFO1-G-60325141031-02",
-    boe: "60325141031",
+  40325133159: {
+    billNo: "AFO1-G-40325133159-01",
+    boe: "40325133159",
     tin: "U1234567890",
-    payerName: "JOHN DOE",
-    amount: "2,500.00 GHS",
-    pdfDate: "08/03/2025 14:20:00",
+    payerName: "CHRISTIAN ADU",
+    amount: "610.11 GHS",
+    pdfDate: "04/03/2025 17:34:00",
+  },
+  40325133159: {
+    billNo: "AFO1-G-40325133159-01",
+    boe: "40325133159",
+    tin: "U1234567890",
+    payerName: "FATA0 ADBULAI",
+    amount: "60,910.11 GHS",
+    pdfDate: "01/03/2025 17:34:00",
   },
 };
 
