@@ -9,7 +9,7 @@ function generateQRCode() {
   document.getElementById("qrcode").innerHTML = "";
 
   // Generate the URL for BOE details using the new link
-  let boeUrl = `https://external-unipassghana.netlify.app/?boe_no=${boeNumber}`;
+  let boeUrl = `https://external-unipassghana.netlify.app/boe.html?boe_no=${boeNumber}`;
 
   // Generate QR Code
   new QRCode(document.getElementById("qrcode"), {
