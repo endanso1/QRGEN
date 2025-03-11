@@ -21,7 +21,7 @@ const boeData = {
     billNo: "AFO1-G-40325133170-01",
     boe: "40325133170",
     tin: "U1234567890",
-    payerName: "FATA0 ADBULAI",
+    payerName: "FATAO ADBULAI",
     amount: "60,910.11 GHS",
     pdfDate: "01/03/2025 17:34:00",
   },
