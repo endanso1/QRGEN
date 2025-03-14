@@ -25,6 +25,14 @@ const boeData = {
     amount: "60,910.11 GHS",
     pdfDate: "01/03/2025 17:34:00",
   },
+  40325133200: {
+    billNo: "AFO1-G-40325133200-01",
+    boe: "40325133200",
+    tin: "U1234567890",
+    payerName: "SELASIE NAPO",
+    amount: "16,910.11 GHS",
+    pdfDate: "01/03/2025 10:09:00",
+  },
 };
 
 // Function to get query parameter from URL
