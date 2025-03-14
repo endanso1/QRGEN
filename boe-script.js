@@ -1,14 +1,31 @@
 // Sample BOE data
 
 const boeData = {
-  40325136561: {
-    billNo: "AFO1-G-40325136561-01",
-    boe: "40325136561",
-    tin: "U2503070293",
-    payerName: "GEORGE APPIAH",
-    amount: "1,040.43 GHS",
-    pdfDate: "06/03/2025 16:05:01",
+  40325155869: {
+    billNo: "AFO1-G-40325155869-01",
+    boe: "40325155869",
+    tin: "U2503140255",
+    payerName: "ALICE OWUSU",
+    amount: "3,447.09 GHS",
+    pdfDate: "14/03/2025 16:53",
   },
+  40325155874: {
+    billNo: "AFO1-G-40325155874-01",
+    boe: "40325155874",
+    tin: "U2503140258",
+    payerName: "ALICE OWUSU",
+    amount: "3,447.09 GHS",
+    pdfDate: "14/03/2025 17:06",
+  },
+  40325155893: {
+    billNo: "AFO1-G-40325155893-01",
+    boe: "40325155893",
+    tin: "U2503140258",
+    payerName: "ALICE OWUSU",
+    amount: "3,447.09 GHS",
+    pdfDate: "14/03/2025 17:37",
+  },
+
   30325133159: {
     billNo: "AFO1-G-40325133159-01",
     boe: "30325133159",
@@ -24,14 +41,6 @@ const boeData = {
     payerName: "FATAO ADBULAI",
     amount: "60,910.11 GHS",
     pdfDate: "01/03/2025 17:34:00",
-  },
-  40325133200: {
-    billNo: "AFO1-G-40325133200-01",
-    boe: "40325133200",
-    tin: "U1234567890",
-    payerName: "SELASIE NAPO",
-    amount: "16,910.11 GHS",
-    pdfDate: "01/03/2025 10:09:00",
   },
 };
 
