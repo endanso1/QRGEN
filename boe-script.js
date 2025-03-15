@@ -56,8 +56,9 @@ function loadBOEData() {
 
   // Convert boeNumber to a string for lookup
   if (!boeNumber || !boeData[String(boeNumber)]) {
-    alert("Invalid BOE Number! No record found.");
-    return;
+    // alert("Invalid BOE Number! No record found.");
+    // return;
+    "";
   }
 
   // Update BOE details
