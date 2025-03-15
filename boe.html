@@ -11,6 +11,7 @@
       body {
         font-family: Arial, sans-serif;
         margin: 0;
+        box-sizing: border-box;
         padding: 0;
         background-color: #ffffff;
         text-align: center;
@@ -44,7 +45,7 @@
       /* Bottom Layer */
       .bottom-layer {
         height: 50px;
-        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+        box-shadow: 0px 6px 12px rgba(156, 150, 150, 0.3); /* Stronger shadow */
       }
 
       /* Menu Icon */
@@ -68,14 +69,16 @@
         font-size: 18px;
         font-weight: bold;
         color: black;
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-right: 9rem;
       }
 
       /* Table */
       table {
         font-size: 13px;
         width: 90%;
-        margin: 20px auto;
+        margin: 10px auto;
         border-collapse: collapse;
         border: 1px solid #ddd;
       }
@@ -151,16 +154,19 @@
           <td id="tin"></td>
         </tr>
         <tr>
-          <th>Tax Payer <br> Name</th>
+          <th>
+            Tax Payer <br />
+            Name
+          </th>
           <td id="payer-name"></td>
         </tr>
         <tr>
-          <th>Amount <br>Payable</th>
+          <th>Amount <br />Payable</th>
           <td id="amount"></td>
         </tr>
 
         <tr>
-          <th>PDF Create <br>Date</th>
+          <th>PDF Create <br />Date</th>
           <td id="pdf-date"></td>
         </tr>
       </table>
