@@ -22,25 +22,24 @@ const boeData = {
     boe: "40325155893",
     tin: "U2503140271",
     payerName: "ALICE OWUSU",
+    amount: "3,938.15 GHS",
+    pdfDate: "21/03/2025 16:03",
+  },
+  40325169231: {
+    billNo: "AFO1-G-40325169231-01",
+    boe: "40325169231",
+    tin: "U2503210253",
+    payerName: "GRACE OPOKU",
     amount: "3,447.09 GHS",
     pdfDate: "14/03/2025 17:37",
   },
-
-  30325133159: {
-    billNo: "AFO1-G-40325133159-01",
-    boe: "30325133159",
-    tin: "U1234567890",
-    payerName: "NANA YAW DANSO",
-    amount: "610.11 GHS",
-    pdfDate: "04/03/2025 17:34:00",
-  },
-  40325133170: {
-    billNo: "AFO1-G-40325133170-01",
-    boe: "40325133170",
-    tin: "U1234567890",
-    payerName: "FATAO ADBULAI",
-    amount: "60,910.11 GHS",
-    pdfDate: "01/03/2025 17:34:00",
+  40325169246: {
+    billNo: "AFO1-G-40325169246-01",
+    boe: "40325169246",
+    tin: "U2503210259",
+    payerName: "GRACE OPOKU",
+    amount: "3,876.92 GHS",
+    pdfDate: "21/03/2025 16:10",
   },
 };
 
