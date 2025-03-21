@@ -20,7 +20,7 @@ const boeData = {
   40325155893: {
     billNo: "AFO1-G-40325155893-01",
     boe: "40325155893",
-    tin: "U2503140258",
+    tin: "U2503140271",
     payerName: "ALICE OWUSU",
     amount: "3,447.09 GHS",
     pdfDate: "14/03/2025 17:37",
@@ -58,7 +58,7 @@ function loadBOEData() {
   if (!boeNumber || !boeData[String(boeNumber)]) {
     // alert("Invalid BOE Number! No record found.");
     // return;
-    "";
+    ("");
   }
 
   // Update BOE details
