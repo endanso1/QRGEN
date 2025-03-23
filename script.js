@@ -8,6 +8,9 @@ function generateQRCode() {
   // Clear previous QR code
   document.getElementById("qrcode").innerHTML = "";
 
+  
+  
+
   // Generate the URL for BOE details using the new link
   let boeUrl = `https://external-unipassghana.netlify.app/boe.html?boe_no=${boeNumber}`;
 
@@ -17,4 +20,10 @@ function generateQRCode() {
     width: 120,
     height: 120,
   });
+}
+
+//Reset button
+function resetQRCode() {
+  document.getElementById("boeInput").value = ""; // Clear input field
+  document.getElementById("qrcode").innerHTML = ""; // Clear QR code
 }
