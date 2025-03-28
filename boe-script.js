@@ -137,9 +137,9 @@ const boeData = {
     amount: " 3,447.09 GHS",
     pdfDate: "28/03/2025 16:55",
   },
-  400325184659: {
-    billNo: "AFO1-G-400325184659-01",
-    boe: "400325184659",
+  40325184659: {
+    billNo: "AFO1-G-40325184659-01",
+    boe: "40325184659",
     tin: "U2503280323",
     payerName: "GEORGE APPIAH",
     amount: " 1,048.78 GHS",
