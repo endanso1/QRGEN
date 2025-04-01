@@ -6,12 +6,6 @@ body {
   background-color: #acc8e5;
   overflow: hidden;
 }
-html, body {
-  overflow: hidden; /* Disables scrolling */
-  height: 100%; /* Ensures the viewport is locked */
-  position: fixed; /* Prevents bounce effect on iOS */
-  width: 100%; /* Ensures full width coverage */
-}
 
 #qrcode {
   display: flex;
