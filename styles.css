@@ -20,7 +20,7 @@ body {
 .main-content {
   flex: 1;
 }
-footer {
+#main-footer {
   background-color: #112A46;
   color: white;
   padding: 2px 0;
