@@ -9,6 +9,14 @@ const boeData = {
     amount: "3,447.09 GHS",
     pdfDate: "14/03/2025 16:53",
   },
+  40325136561: {
+    billNo: "AFO1-G-40325136561-01",
+    boe: "40325136561",
+    tin: "U2503140567",
+    payerName: "KWAME OSEI-OWUSU",
+    amount: "7,447.09 GHS",
+    pdfDate: "19/03/2025 10:53",
+  },
   40325155874: {
     billNo: "AFO1-G-40325155874-01",
     boe: "40325155874",
