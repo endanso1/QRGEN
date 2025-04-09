@@ -23,3 +23,4 @@ function generateQRCode() {
   function resetQRCode() {
     document.getElementById("boeInput").value = ""; // Clear input field
     document.getElementById("qrcode").innerHTML = ""; // Clear QR code
+  }
