@@ -222,7 +222,7 @@ const boeData = {
     boe: "40425209752",
     tin: "U25040100259",
     payerName: "OPHELIA GYARTENG",
-    amount: " 1,411.52 GHS",
+    amount: " 808.78 GHS",
     pdfDate: "10/04/2025 16:27",
   },
 };
