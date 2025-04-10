@@ -15,8 +15,15 @@ const assessedData = {
       pdf_date: "04/04/2025 17:30:23",
       amount: "1,411.52 GHS",
       watermark: "This is a Customs Electronically Validated Entry Customs Assessment accepted by Declarant",
-      tracking:"Declaration Tracking",
-      
+      tracking:"Declaration Tracking", 
+    },
+    "40425194359": {
+      boe_no: "40425194359",
+      status: "Assessed",
+      pdf_date: "04/04/2025 16:35:12",
+      amount: "1,411.52 GHS",
+      watermark: "This is a Customs Electronically Validated Entry Customs Assessment accepted by Declarant",
+      tracking:"Declaration Tracking", 
     },
   };
   
