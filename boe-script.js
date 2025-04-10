@@ -217,6 +217,14 @@ const boeData = {
     amount: " 1,411.52 GHS",
     pdfDate: "04/04/2025 16:40",
   },
+  40425209752: {
+    billNo: "AFO1-G-40425209752-01",
+    boe: "40425209752",
+    tin: "U25040100259",
+    payerName: "OPHELIA GYARTENG",
+    amount: " 1,411.52 GHS",
+    pdfDate: "10/04/2025 16:27",
+  },
 };
 
 // Function to get query parameter from URL
