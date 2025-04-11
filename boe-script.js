@@ -238,7 +238,7 @@ const boeData = {
     boe: "40425210423",
     tin: "U2504110239",
     payerName: "AFIA MENSAH",
-    amount: "3,938.15",
+    amount: "3,938.15 GHS",
     pdfDate: "11/04/2025 16:01",
   },
   40425210430: {
@@ -246,7 +246,7 @@ const boeData = {
     boe: "40425210430",
     tin: "U2504110247",
     payerName: "AFIA MENSAH",
-    amount: "3,877.92",
+    amount: "3,877.92 GHS",
     pdfDate: "11/04/2025 16:09",
   },
   40425210446: {
@@ -254,7 +254,7 @@ const boeData = {
     boe: "40425210446",
     tin: "U2504110256",
     payerName: "AFIA MENSAH",
-    amount: "3,447.09",
+    amount: "3,447.09 GHS",
     pdfDate: "11/04/2025 16:18",
   },
   40425210451: {
@@ -262,7 +262,7 @@ const boeData = {
     boe: "40425210451",
     tin: "U2504110260",
     payerName: "AFIA MENSAH",
-    amount: "3,447.09",
+    amount: "3,447.09 GHS",
     pdfDate: "11/04/2025 16:22",
   },
   40425210465: {
@@ -270,7 +270,7 @@ const boeData = {
     boe: "40425210465",
     tin: "U2504110267",
     payerName: "AFIA MENSAH",
-    amount: "3,447.09",
+    amount: "3,447.09 GHS",
     pdfDate: "11/04/2025 16:29",
   },
   40425210474: {
@@ -278,7 +278,7 @@ const boeData = {
     boe: "40425210474",
     tin: "U2504110283",
     payerName: "AFIA MENSAH",
-    amount: "3,447.09",
+    amount: "3,447.09 GHS",
     pdfDate: "11/04/2025 16:31",
   },
   40425210419: {
@@ -286,7 +286,7 @@ const boeData = {
     boe: "40425210419",
     tin: "U2504110234",
     payerName: "COMFORT KWARTENG",
-    amount: "1,411.52",
+    amount: "1,411.52 GHS",
     pdfDate: "11/04/2025 15:36",
   },
 };
