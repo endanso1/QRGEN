@@ -22,23 +22,50 @@ function generateQRCode() {
     height: 80,
   });
 
-  // Wait a bit to let QR code render
+  // // Wait a bit to let QR code render
+  // setTimeout(() => {
+  //   const imgTag = tempDiv.querySelector("img");
+
+  //   if (imgTag) {
+  //     // Create download button
+  //     const downloadLink = document.createElement("a");
+  //     downloadLink.href = imgTag.src;
+  //     downloadLink.download = `boe_qr_${boeNumber}.png`;
+  //     downloadLink.textContent = "Download";
+  //     downloadLink.className = "btn btn-sm btn-success mt-5 mx-3";
+
+  //     qrcodeContainer.appendChild(downloadLink);
+  //   } else {
+  //     alert("QR code could not be generated. Please try again.");
+  //   }
+  // }, 500); // Adjust timeout if necessary
   setTimeout(() => {
     const imgTag = tempDiv.querySelector("img");
-
+  
     if (imgTag) {
-      // Create download button
-      const downloadLink = document.createElement("a");
-      downloadLink.href = imgTag.src;
-      downloadLink.download = `boe_qr_${boeNumber}.png`;
-      downloadLink.textContent = "Download";
-      downloadLink.className = "btn btn-sm btn-success mt-5 mx-3";
-
-      qrcodeContainer.appendChild(downloadLink);
+      // Convert base64 to Blob
+      fetch(imgTag.src)
+        .then(res => res.blob())
+        .then(blob => {
+          const url = URL.createObjectURL(blob);
+          const downloadLink = document.createElement("a");
+  
+          downloadLink.href = url;
+          downloadLink.download = `boe_qr_${boeNumber}.png`;
+          downloadLink.textContent = "Download";
+          downloadLink.className = "btn btn-sm btn-success mt-5 mx-3";
+  
+          qrcodeContainer.appendChild(downloadLink);
+        })
+        .catch(err => {
+          console.error("QR download error:", err);
+          alert("Something went wrong while preparing the download.");
+        });
     } else {
       alert("QR code could not be generated. Please try again.");
     }
-  }, 500); // Adjust timeout if necessary
+  }, 500);
+  
 }
 
 //Reset button
