@@ -13,63 +13,32 @@ function generateQRCode() {
   let boeUrl = `https://external-unipassghana.netlify.app/boe.html?boe_no=${boeNumber}`;
 
   // Generate QR Code
-  const tempDiv = document.createElement("div");
-  qrcodeContainer.appendChild(tempDiv);
-
-  const qrCode = new QRCode(tempDiv, {
+  new QRCode(qrcodeContainer, {
     text: boeUrl,
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
+    correctLevel: QRCode.CorrectLevel.H,
   });
 
-  // // Wait a bit to let QR code render
-  // setTimeout(() => {
-  //   const imgTag = tempDiv.querySelector("img");
-
-  //   if (imgTag) {
-  //     // Create download button
-  //     const downloadLink = document.createElement("a");
-  //     downloadLink.href = imgTag.src;
-  //     downloadLink.download = `boe_qr_${boeNumber}.png`;
-  //     downloadLink.textContent = "Download";
-  //     downloadLink.className = "btn btn-sm btn-success mt-5 mx-3";
-
-  //     qrcodeContainer.appendChild(downloadLink);
-  //   } else {
-  //     alert("QR code could not be generated. Please try again.");
-  //   }
-  // }, 500); // Adjust timeout if necessary
+  // Convert to image after rendering
   setTimeout(() => {
-    const imgTag = tempDiv.querySelector("img");
-  
-    if (imgTag) {
-      // Convert base64 to Blob
-      fetch(imgTag.src)
-        .then(res => res.blob())
-        .then(blob => {
-          const url = URL.createObjectURL(blob);
-          const downloadLink = document.createElement("a");
-  
-          downloadLink.href = url;
-          downloadLink.download = `boe_qr_${boeNumber}.png`;
-          downloadLink.textContent = "Download";
-          downloadLink.className = "btn btn-sm btn-success mt-5 mx-3";
-  
-          qrcodeContainer.appendChild(downloadLink);
-        })
-        .catch(err => {
-          console.error("QR download error:", err);
-          alert("Something went wrong while preparing the download.");
-        });
-    } else {
-      alert("QR code could not be generated. Please try again.");
+    const canvas = qrcodeContainer.querySelector("canvas");
+
+    if (canvas) {
+      const img = document.createElement("img");
+      img.src = canvas.toDataURL("image/png");
+      img.alt = "QR Code";
+      img.style.width = "80px";
+      img.style.height = "80px";
+
+      qrcodeContainer.innerHTML = "";
+      qrcodeContainer.appendChild(img);
     }
-  }, 500);
-  
+  }, 300);
 }
 
-//Reset button
+// Reset button
 function resetQRCode() {
-  document.getElementById("boeInput").value = ""; // Clear input field
-  document.getElementById("qrcode").innerHTML = ""; // Clear QR code
+  document.getElementById("boeInput").value = "";
+  document.getElementById("qrcode").innerHTML = "";
 }
