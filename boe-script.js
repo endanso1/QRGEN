@@ -486,7 +486,7 @@ const boeData = {
     boe: "40525279669",
     tin: "U2505130184",
     payerName: "ABENA ANTWIWAA",
-    amount: "1,009.67 GHS",
+    amount: "1,201.67 GHS",
     pdfDate: "13/05/2025 17:13",
   },
   40425262928: {
