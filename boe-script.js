@@ -482,12 +482,12 @@ const boeData = {
     pdfDate: "06/05/2025 15:42",
   },
   40425262792: {
-    billNo: "AFO1-G-40425262792-01",
-    boe: "40425262792",
-    tin: "U2505060283",
-    payerName: "CHARLES BREFO",
-    amount: "1,201.67 GHS",
-    pdfDate: "06/05/2025 17:13",
+    billNo: "AFO1-G-40525279669-01",
+    boe: "40525279669",
+    tin: "U2505130184",
+    payerName: "ABENA ANTWIWAA",
+    amount: "1,009.67 GHS",
+    pdfDate: "13/05/2025 17:13",
   },
   40425262928: {
     billNo: "AFO1-G-40425262928-01",
