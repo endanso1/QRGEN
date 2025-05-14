@@ -567,7 +567,8 @@ function loadBOEData() {
   // Update BOE details
   document.getElementById("bill-number").textContent =
     boeData[boeNumber].billNo;
-  document.getElementById("boe-number").textContent = boeNumber;
+  // document.getElementById("boe-number").textContent = boeNumber;
+  document.getElementById("boe-number").textContent = boeData[boeNumber].boe;
   document.getElementById("tin").textContent = boeData[boeNumber].tin;
   document.getElementById("payer-name").textContent =
     boeData[boeNumber].payerName;
