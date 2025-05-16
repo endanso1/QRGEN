@@ -609,6 +609,14 @@ const boeData = {
     amount: "3,435.93 GHS",
     pdfDate: "16/05/2025 16:35",
   },
+ 40525287906: {
+    billNo: "AFO1-G-40525287906-01",
+    boe: "40525287906",
+    tin: "U2505160207",
+    payerName: "ISAAC OPOKU",
+    amount: "2,102.45 GHS",
+    pdfDate: "16/05/25 15:39",
+  },
 };
 
 // Function to get query parameter from URL
