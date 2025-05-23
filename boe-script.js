@@ -665,6 +665,14 @@ const boeData = {
     amount: "1,211.43 GHS",
     pdfDate: "22/05/25 17:53",
   },
+  40525306527: {
+    billNo: "AFO1-G-40525306527-01",
+    boe: "40525306527",
+    tin: "U2505230279",
+    payerName: "COMFORT KWARTENG",
+    amount: "2,310.55 GHS",
+    pdfDate: "23/05/25 17:13",
+  },
 };
 
 // Function to get query parameter from URL
