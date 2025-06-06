@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOE QR Code Information</title>
-    
+
     <style>
       /* General Styles */
       body {
@@ -110,6 +110,9 @@
       th {
         background-color: #f5f4f4;
       }
+      td {
+        color: #333333;
+      }
 
       /* Proper Amount Payable Alignment */
       #amount {
@@ -121,9 +124,9 @@
         color: #1a659e;
         text-decoration: none;
       }
-       #boe_no_2{
-        color:#000 ;
-      } 
+      #boe_no_2 {
+        color: #000;
+      }
 
       /* Red Note Text */
       .note {
@@ -131,7 +134,7 @@
         font-size: 12px;
         margin-top: -10px;
       }
-      .note spam{
+      .note spam {
         font-size: 14px;
       }
 
@@ -170,21 +173,21 @@
         <img src="sectionImage.png" alt="" /> BOE QR Code Information
       </h2>
 
-       <table>
+      <table>
         <tr>
           <th>BOE No.</th>
-          <td ><a id="boe_no" href="#"></a><span id="boe_no_2">/ 00</span></td>
+          <td><a id="boe_no" href="#"></a><span id="boe_no_2">/ 00</span></td>
         </tr>
         <tr>
           <th>BOE Status</th>
           <td id="status"></td>
         </tr>
         <tr>
-          <th>PDF Create <br>Date</th>
+          <th>PDF Create <br />Date</th>
           <td id="pdf_date"></td>
         </tr>
         <tr>
-          <th>Amount <br>Payable</th>
+          <th>Amount <br />Payable</th>
           <td id="amount"></td>
         </tr>
         <tr>
@@ -192,23 +195,26 @@
           <td id="watermark"></td>
         </tr>
         <tr>
-          <th>Declaration <br>Tracking</th>
-          <td ><a id="tracking" href="https://external.unipassghana.com/cl/dl/declaration/tracking/selectDeclarationTrackingList.do?decorator=popup&MENU_ID=II&decorator=popupExt"></a></td>
+          <th>Declaration <br />Tracking</th>
+          <td>
+            <a
+              id="tracking"
+              href="https://external.unipassghana.com/cl/dl/declaration/tracking/selectDeclarationTrackingList.do?decorator=popup&MENU_ID=II&decorator=popupExt"
+            ></a>
+          </td>
         </tr>
       </table>
 
-     
-
       <p class="note">
-        <spam>※</spam> Click "Declaration Tracking" for the latest BOE information.
+        <spam>※</spam> Click "Declaration Tracking" for the latest BOE
+        information.
       </p>
     </main>
 
     <footer>
-      <p>COPYRIGHT(C)2020 by CUPIA. ALL RIGHTS RESERVED.</p>
+      <p>COPYRIGHT(C)2020 by CUPIA. ALL RIGHT RESERVED.</p>
     </footer>
 
     <script src="assessed-script.js"></script>
-
   </body>
 </html>
