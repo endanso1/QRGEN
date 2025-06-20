@@ -905,13 +905,29 @@ const boeData = {
     amount: "2,043.12 GHS",
     pdfDate: "12/06/2025 15:43",
   }, 
-  40625345107: {
-    billNo: "AFO1-G-40625345107-01",
-    boe: "40625345107",
-    tin: "U2506120251",
-    payerName: "GRACE MENSAH",
-    amount: "1,005.12 GHS",
-    pdfDate: "12/06/2025 15:06",
+  40625369407: {
+    billNo: "AFO1-G-40625369407-01",
+    boe: "40625369407",
+    tin: "U2506200231",
+    payerName: "COMFORT KWARTENG",
+    amount: "1,854.55 GHS",
+    pdfDate: "20/06/2025 15:39:23",
+  }, 
+  40625369435: {
+    billNo: "AFO1-G-40625369435-01",
+    boe: "40625369435",
+    tin: "U2506200256",
+    payerName: "COMFORT KWARTENG",
+    amount: "721.09 GHS",
+    pdfDate: "20/06/2025 15:46:13",
+  }, 
+  40625369478: {
+    billNo: "AFO1-G-40625369478-01",
+    boe: "40625369478",
+    tin: "U2506200275",
+    payerName: "ISAAC OPOKU",
+    amount: "1,257.43 GHS",
+    pdfDate: "20/06/2025 15:59:09",
   }, 
 };
 
