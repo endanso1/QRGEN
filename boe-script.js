@@ -808,7 +808,7 @@ const boeData = {
     payerName: "YAA AMPONG",
     amount: "1,045.09 GHS",
     pdfDate: "03/06/2025 15:36",
-  }, 
+  },
   40625331239: {
     billNo: "AFO1-G-40625331239-01",
     boe: "40625331239",
@@ -816,7 +816,7 @@ const boeData = {
     payerName: "REBECCA OSEI",
     amount: "925.85 GHS",
     pdfDate: "03/06/2025 15:51",
-  }, 
+  },
   40625331257: {
     billNo: "AFO1-G-40625331257-01",
     boe: "40625331257",
@@ -824,7 +824,7 @@ const boeData = {
     payerName: "CHRISTIANA ADU",
     amount: "1,105.12 GHS",
     pdfDate: "03/06/2025 16:02",
-  }, 
+  },
   40625331619: {
     billNo: "AFO1-G-40625331619-01",
     boe: "40625331619",
@@ -832,7 +832,7 @@ const boeData = {
     payerName: "ABENA ANTWIWAA",
     amount: "954.67 GHS",
     pdfDate: "03/06/2025 17:50",
-  }, 
+  },
   40625332247: {
     billNo: "AFO1-G-40625332247-01",
     boe: "40625332247",
@@ -840,7 +840,7 @@ const boeData = {
     payerName: "REGINA ACHEAMPONG",
     amount: "2,649.19 GHS",
     pdfDate: "04/06/2025 16:11",
-  }, 
+  },
   40625332190: {
     billNo: "AFO1-G-40625332190-01",
     boe: "40625332190",
@@ -848,7 +848,7 @@ const boeData = {
     payerName: "COMFORT KWARTENG",
     amount: "2,220.49 GHS",
     pdfDate: "04/06/2025 16:02",
-  }, 
+  },
   40625342518: {
     billNo: "AFO1-G-40625342518-01",
     boe: "40625342518",
@@ -856,7 +856,7 @@ const boeData = {
     payerName: "CHARLES BREFFO",
     amount: "932.78 GHS",
     pdfDate: "10/06/2025 15:36",
-  }, 
+  },
   40625342527: {
     billNo: "AFO1-G-40625342527-01",
     boe: "40625342527",
@@ -864,7 +864,7 @@ const boeData = {
     payerName: "DORCAS BOATENG",
     amount: "1,257.43 GHS",
     pdfDate: "10/06/2025 15:49",
-  }, 
+  },
   40625343602: {
     billNo: "AFO1-G-40625343602-01",
     boe: "40625343602",
@@ -872,7 +872,7 @@ const boeData = {
     payerName: "COMFORT KWARTENG",
     amount: "1,440.55 GHS",
     pdfDate: "11/06/2025 15:39",
-  }, 
+  },
   40625345156: {
     billNo: "AFO1-G-40625345156-01",
     boe: "40625345156",
@@ -880,7 +880,7 @@ const boeData = {
     payerName: "YAA AMPONG",
     amount: "1,149.07 GHS",
     pdfDate: "12/06/2025 16:01",
-  }, 
+  },
   40625345145: {
     billNo: "AFO1-G-40625345145-01",
     boe: "40625345145",
@@ -888,7 +888,7 @@ const boeData = {
     payerName: "KORKU POKU",
     amount: "1,117.83 GHS",
     pdfDate: "12/06/2025 15:51",
-  }, 
+  },
   40625345137: {
     billNo: "AFO1-G-40625345137-01",
     boe: "40625345137",
@@ -896,7 +896,7 @@ const boeData = {
     payerName: "GEORGE APPIAH",
     amount: "2,043.12 GHS",
     pdfDate: "12/06/2025 15:43",
-  }, 
+  },
   40625345128: {
     billNo: "AFO1-G-40625345128-01",
     boe: "40625345128",
@@ -904,7 +904,7 @@ const boeData = {
     payerName: "GRACE MENSAH",
     amount: "2,043.12 GHS",
     pdfDate: "12/06/2025 15:43",
-  }, 
+  },
   40625369407: {
     billNo: "AFO1-G-40625369407-01",
     boe: "40625369407",
@@ -912,7 +912,7 @@ const boeData = {
     payerName: "COMFORT KWARTENG",
     amount: "1,854.55 GHS",
     pdfDate: "20/06/2025 15:39:23",
-  }, 
+  },
   40625369435: {
     billNo: "AFO1-G-40625369435-01",
     boe: "40625369435",
@@ -920,7 +920,7 @@ const boeData = {
     payerName: "COMFORT KWARTENG",
     amount: "721.09 GHS",
     pdfDate: "20/06/2025 15:46:13",
-  }, 
+  },
   40625369478: {
     billNo: "AFO1-G-40625369478-01",
     boe: "40625369478",
@@ -928,7 +928,7 @@ const boeData = {
     payerName: "ISAAC OPOKU",
     amount: "1,257.43 GHS",
     pdfDate: "20/06/2025 15:59:09",
-  }, 
+  },
   40625374209: {
     billNo: "AFO1-G-40625374209-01",
     boe: "40625374209",
@@ -936,7 +936,7 @@ const boeData = {
     payerName: "ABENA ANTWIWAA",
     amount: "921.89 GHS",
     pdfDate: "24/06/2025 17:50:09",
-  }, 
+  },
   40625378838: {
     billNo: "AFO1-G-40625378838-01",
     boe: "40625378838",
@@ -944,7 +944,7 @@ const boeData = {
     payerName: "NANA AMA",
     amount: "867.12 GHS",
     pdfDate: "24/06/2025 19:18:44",
-  }, 
+  },
   40625379217: {
     billNo: "AFO1-G-40625379217-01",
     boe: "40625379217",
@@ -952,7 +952,7 @@ const boeData = {
     payerName: "COMFORT KWARTENG ",
     amount: "1,854.55 GHS",
     pdfDate: "25/06/2025 15:39:24",
-  }, 
+  },
   40725395908: {
     billNo: "AFO1-G-40725395908-01",
     boe: "40725395908",
@@ -960,7 +960,7 @@ const boeData = {
     payerName: "YAA AMPOMAA",
     amount: "1,149.07 GHS",
     pdfDate: "01/07/2025 16:01:24",
-  }, 
+  },
   40725395937: {
     billNo: "AFO1-G-40725395937-01",
     boe: "40725395937",
@@ -968,7 +968,7 @@ const boeData = {
     payerName: "MARTHA AGYEIWAA",
     amount: "828.13 GHS",
     pdfDate: "01/07/2025 16:12:21",
-  }, 
+  },
   40725395986: {
     billNo: "AFO1-G-40725395986-01",
     boe: "40725395986",
@@ -976,7 +976,7 @@ const boeData = {
     payerName: "ABENA ANTWIWAA",
     amount: "1,314.89 GHS",
     pdfDate: "01/07/2025 16:02:31",
-  }, 
+  },
   40725403617: {
     billNo: "AFO1-G-40725403617-01",
     boe: "40725403617",
@@ -984,7 +984,23 @@ const boeData = {
     payerName: "GEORGE APPIAH",
     amount: "2,025.12 GHS",
     pdfDate: "03/07/2025 17:37:11",
-  }, 
+  },
+  40725405521: {
+    billNo: "AFO1-G-40725405521-01",
+    boe: "40725405521",
+    tin: "U2507040269",
+    payerName: "COMFORT KWARTENG",
+    amount: "714.67 GHS",
+    pdfDate: "04/07/2025 17:01:11",
+  },
+  40725405516: {
+    billNo: "AFO1-G-40725405516-01",
+    boe: "40725405521",
+    tin: "U2507040250",
+    payerName: "COMFORT KWARTENG",
+    amount: "1,061.65 GHS",
+    pdfDate: "04/07/2025 16:30:09",
+  },
 };
 
 // Function to get query parameter from URL
